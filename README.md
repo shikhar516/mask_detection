@@ -9,5 +9,7 @@ Step 3.0: Detecting Masks
 
 I have made the code self explanatory.
 To download this code please visit https://imojo.in/272qhlk
-
 Also you can check my website stringlab.org
+
+I am able to acheive ~97%-98% accuracy 
+Below are some results
