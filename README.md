@@ -1,15 +1,13 @@
-# mask_detection
-COVID-19 face mask detection using Convolutional Neural Network (CNN) Python, Keras, Tensorflow, OpenCV.
-Detect the person is wearing mask or not.
-I have a Data set for approx 700 With mask and without mask each
-There are 3 steps I have created this whole project in.
-Step 1.0: Data preprocessing
-Step 2.0: Training the CNN
-Step 3.0: Detecting Masks
+# face-mask-detection-keras
 
-I have made the code self explanatory.
-To download this code please visit https://imojo.in/272qhlk
-Also you can check my website stringlab.org
+This project is implemented in Python using Keras, Tensorflow and OpenCV.
 
-I am able to acheive ~97%-98% accuracy 
+## Credits and Links
 
+The original dataset is prepared by [Prajna Bhandary](https://www.linkedin.com/in/prajna-bhandary-0b03a416a/) and available at [Github](https://github.com/prajnasb/observations/tree/master/experiements/data)
+
+## Motivated by the works of,
+
+1. [Adrian Rosebrock](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+2. [sentdex](https://pythonprogramming.net/convolutional-neural-network-deep-learning-python-tensorflow-keras/)
+3. [Prajna Bhandary](https://github.com/prajnasb/observations/tree/master/experiements/data)
