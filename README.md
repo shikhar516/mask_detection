@@ -1,10 +1,6 @@
 # Face-Mask-Detection
-In order to protect ourselves from the COVID-19 Pandemic, almost every one of us tend to wear a face mask. It becomes increasingly necessary to check if the people in the crowd wear face masks in most public gatherings such as Malls, Theatres, Parks. The development of an AI solution to detect if the person is wearing a face mask and allow their entry would be of great help to the society. In this paper, a simple Face Mask detection system is built using the Deep Learning technique called as Convolutional Neural Networks (CNN). This CNN Model is built using the TensorFlow framework and the OpenCV library which is highly used for real-time applications. This model can also be used to develop a full-fledged software to scan every person before they can enter the public gathering. Using this model, an accuracy of over 96% is obtained. This can also be used further to achieve even higher levels of accuracy.
 
-Medium Article - [Click Here!](https://towardsdatascience.com/covid-19-face-mask-detection-using-tensorflow-and-opencv-702dd833515b)
-
-### Data - 
-I have used the face mask dataset provided by [Prajna Bhandary](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6655711815361761280/)
+My Article - [Click Here!](https://brewcode.stringlab.org/covid-19-face-mask-detection-using-tensorflow-and-opencv-overview/)
 
 ### CNN Architecture -
 In this proposed method, the Face Mask detection model is built using the Sequential API of the keras library. This allows us to create the new layers for our model step by step. The various layers used for our CNN model is described below.
@@ -23,7 +19,7 @@ Finally, towards the end, we use the Dense layer with 50 units and the activatio
 
 The last layer of our model will be another Dense Layer, with only two units and the activation function used will be the ‘Softmax’ function. The softmax function outputs a vector which will represent the probability distributions of each of the input units. Here, two input units are used. The softmax function will output a vector with two probability distribution values.
 
-![alt text](https://github.com/mk-gurucharan/Face-Mask-Detection/blob/master/cnn_facemask.png)
+![alt text](https://github.com/shikhar516/mask_detection/blob/master/cnn_facemask.png)
 
 After building the model, we compile the model and define the loss function and optimizer function. In this model, we use the ‘Adam’ Optimizer and the ‘Binary Cross Entropy’ as the Loss function for training purpose.
 
@@ -33,5 +29,3 @@ The cascade classifier used for this experiment is the Face Detection Cascade Cl
 
 Finally, the CNN model along with the cascade classifier is trained for 30 epochs with two classes, one denoting the class of images with the face masks and the other without face masks. 
 
-### Demo - 
-![](demo.gif)
