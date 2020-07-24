@@ -1,6 +1,6 @@
 # Face-Mask-Detection
 
-My Article - [Click Here!](https://brewcode.stringlab.org/covid-19-face-mask-detection-using-tensorflow-and-opencv-overview/)
+Walkthrough - [Click Here!](https://brewcode.stringlab.org/covid-19-face-mask-detection-using-tensorflow-and-opencv-overview/)
 Dataset - [Click Here!](https://imojo.in/480cs87)
 
 ### CNN Architecture -
