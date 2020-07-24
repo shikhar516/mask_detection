@@ -1,6 +1,7 @@
 # Face-Mask-Detection
 
 My Article - [Click Here!](https://brewcode.stringlab.org/covid-19-face-mask-detection-using-tensorflow-and-opencv-overview/)
+Dataset - [Click Here!](https://imojo.in/480cs87)
 
 ### CNN Architecture -
 In this proposed method, the Face Mask detection model is built using the Sequential API of the keras library. This allows us to create the new layers for our model step by step. The various layers used for our CNN model is described below.
